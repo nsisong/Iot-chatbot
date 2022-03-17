@@ -3,3 +3,6 @@
 2. Install Pyaudio using pip install pyaudio
 	note: for windows, there may be an error
 		so download the wheel and install it
+
+for text to speech, 
+1. install pyttsx3 using pip install pyttsx3
