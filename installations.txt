@@ -1,0 +1,5 @@
+1. install SpeechRecognition3.8.1 or latest using pip install SpeechRecognition
+
+2. Install Pyaudio using pip install pyaudio
+	note: for windows, there may be an error
+		so download the wheel and install it

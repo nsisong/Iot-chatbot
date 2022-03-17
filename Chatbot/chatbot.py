@@ -1,5 +1,8 @@
 import speech_recognition as sr
+import pyttsx3
+
 r = sr.Recognizer()
+engine = pyttsx3.init()
 
 with sr.Microphone() as source:
     print("ok you can speek now")
@@ -7,3 +10,5 @@ with sr.Microphone() as source:
     print("Recognizing .....")
     text = r.recognize_google(audio_data)
     print(text)
+    engine.say(text)
+    engine.runAndWait()
