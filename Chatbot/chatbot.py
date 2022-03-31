@@ -21,6 +21,10 @@ voices = engine.getProperty("voices")
 print("male voice: {0}". format(voices[0].id))
 print("female voice: {0}". format(voices[1].id))
 
+""" 
+the next thing to do is to set up a wake up word!!!
+""""
+
 while True:
     with mic as source:
         r.adjust_for_ambient_noise(source, duration=0.2)
